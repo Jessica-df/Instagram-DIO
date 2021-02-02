@@ -1,4 +1,4 @@
-*{
+* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
@@ -8,9 +8,9 @@
 }
 
 body {
-	Width:100%;
+	Width: 100%;
 	min-height: 100vh;
-	backroud-color: rgb(243, 243, 243);
+	backgroud-color: rgb(243, 243, 243);
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -19,7 +19,7 @@ body {
 
 .instagram-wrapper {
 	display: flex;
-	align-itens: center;
+	align-items: center;
 	justify-content: start;
 	width: 60%;
 	height: 100vh;	
@@ -27,28 +27,28 @@ body {
 
 .instagram-phone {
 	display: flex;
-	align-itens: center;
+	align-items: center;
 	justify-content: center;
 	width: 50%;
 }
 
 .instagram-phone img {
-	height: 50ren;
+	height: 50rem;
 }
 
 .instagram-continue {
 	display: flex;
-	align-itens: center; /*horizontal*/
+	align-items: center; /*horizontal*/
 	justify-content: space-around; /* vertical*/
 	flex-direction: column;
 	width: 50%;
-	min-height: 34ren;
+	min-height: 34rem;
 }
 
 .group {
 	display: flex;
 	justify-content: space-between;
-	align-itens: center;
+	align-items: center;
 	flex-direction: column;
 	background-color: #ffffff;
 	width: 100%;
@@ -57,37 +57,36 @@ body {
 }
 
 .group:nth-child(1) {
-	min-height: 19ren;
+	min-height: 19rem;
 }
 
 .instagran-logo {
-	height: 3ren;
+	height: 3rem;
 }
 
 .profile-photo {
 	display: flex;
 	justify-content: center;
-	align-itens: center;
-	border-radius: 10%;
+	align-items: center;
+	border-radius: 50%;
 	overflow: hidden;	
 }
 
 .profile-photo img {
-	height: 100px;
-	border-radius: 50%;	
+	height: 6rem;	
 }
 
 
 .instagram-login {
 	background-color: #0095f6;
-	color: #fffff;
-	padding 8px;
+	color: #ffffff;
+	padding: 8px;
 	border-radius: 4px;
 }
 
 .instagram-logout {
 	color: #0095f6;
-	margin-top: 1ren;
+	margin-top: 1rem;
 
 }
 
@@ -102,23 +101,23 @@ body {
 .get-the-app {
 	display: flex;
 	flex-direction: column;
-	align-itens: center;
+	align-items: center;
 	justify-content: center;
-	width:100%;
-	padding: 1.3ren 0;
+	width: 100%;
+	padding: 1.3rem 0;
 }
 
 .download {
 	display: flex;
 	width: 100%;
 	justify-content: space-evenly;
-	aling-itens: center;
-	padding: 1ren;
+	aling-items: center;
+	padding: 1rem;
 }
 
 .app-dowload {
-	height: 3ren;
-	width: 10ren;
+	height: 3rem;
+	width: 10rem;
 	background-size: cover;
 }
 
@@ -126,7 +125,7 @@ body {
 	background-image: url('./img/apple-button.png');
 }
 
-.app-dowload:nth-child(2) {
+.app-download:nth-child(2) {
 	background-image: url('./img/googleplay-button.png');
 }
 
@@ -137,9 +136,9 @@ body {
 		width: 90%;
 	}
 }
-@media (max-width: 650pc) {
+@media (max-width: 650px) {
 	.body{
-		background-color: #ffff;
+		background-color: #ffffff;
 	}
 	.instagram-wrapper {
 		width: 90%;
